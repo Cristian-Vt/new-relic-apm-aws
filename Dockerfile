@@ -1,4 +1,4 @@
-FROM node:16
+FROM node:16.16.0-bullseye-slim
 
 ARG NEW_RELIC_LICENSE_KEY
 
