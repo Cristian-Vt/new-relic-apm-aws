@@ -1,1 +1,6 @@
 .history
+.history
+node_modules
+.next
+newrelic_agent.log
+package-lock.json

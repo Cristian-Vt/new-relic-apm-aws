@@ -1,5 +1,7 @@
 FROM node:16
 
+ARG NEW_RELIC_LICENSE_KEY
+
 # Create app directory
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
