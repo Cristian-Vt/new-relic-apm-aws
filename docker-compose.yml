@@ -1,8 +1,8 @@
 version: "3.9"
 services:
-  web:
+  new-relic-next-js:
     build: .
     ports:
       - "3000:3000"
     environment:
-      NEW_RELIC_LICENSE_KEY: "${NEW_RELIC_LICENCE_KEY}"
+      NEW_RELIC_LICENSE_KEY: "${NEW_RELIC_LICENSE_KEY}"
