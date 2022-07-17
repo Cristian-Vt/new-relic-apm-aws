@@ -1,0 +1,21 @@
+{
+    "name": "nextjs-hello-world",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "keywords": [],
+    "author": "cristian.vt",
+    "license": "ISC",
+    "scripts": {
+        "build": "next build",
+        "dev": "next dev",
+        "start": "NODE_OPTIONS='-r @newrelic/next' next start"
+    },
+    "dependencies": {
+        "@newrelic/next": "^0.1.1",
+        "newrelic": "latest",
+        "next": "^12.1.5",
+        "react": "^18.1.0",
+        "react-dom": "^18.1.0"
+    }
+}
