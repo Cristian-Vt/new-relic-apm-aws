@@ -1,6 +1,8 @@
-FROM node:16.16.0-bullseye-slim
+FROM node:16
 
-ARG NEW_RELIC_LICENSE_KEY
+# set argument and env var
+ARG NEW_RELIC_LICENSE_KEY_VALUE
+ENV NEW_RELIC_LICENSE_KEY=${NEW_RELIC_LICENSE_KEY_VALUE:-NOT_DEFINED}
 
 # Create app directory
 RUN mkdir -p /usr/src/app
